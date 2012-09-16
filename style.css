@@ -1,0 +1,71 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	background: #ebebeb; 
+}
+div#wrap { 
+	margin: 6px auto 0; 
+	padding: 29px 58px 34px 35px; 
+	border: 1px solid #ccc; 
+	width: 878px; 
+	background: #fff; 
+}
+div#wrap:after { 
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden; 
+}
+#message{
+	float: left;
+	width: 878px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#header{
+	float: left;
+	width: 218px;
+	height: 80px;
+	padding-bottom: 2px;
+	background-image: url('http://www.spotonseoservices.com/i/spotonseo-logo.gif');
+	background-repeat: no-repeat;
+}
+#subtext{
+	float:left;
+	width: 700px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+	
+#form{
+	float: left;
+	width: 878px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+submit{
+	background-image: ('import.jpg');
+}
+p{
+	font-family: verdana;
+	font-size: 10px;
+}
+p.title{
+	font-family: verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #C92127;
+}
+p.success{
+	color:green; 
+	font-weight: bold;
+}
+p.error{
+	color:red; 
+	font-weight: bold;
+}

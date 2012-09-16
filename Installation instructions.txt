@@ -1,0 +1,18 @@
+
+
+To use the script:
+
+For the latest instructions and script versions go here: http://www.spotonseoservices.com/free-cpanel-php-script-automate-creation-addon-domains/
+
+Your host should support PHP 4 or later versions or PHP.
+
+Add your domain list to domains.txt (included in download).  I would recommend not doing more than 50-100 domains at a time.  I recently added 105 domains to one HostGator account with no problems.  Start small, maybe only try adding the first three to ensure everything is working correctly.
+
+To use the script, create a folder off of one of your sites hosted on the same cPanel account.  
+
+Then upload addonhelper.php, domains.txt, index.php, style.css to that folder.
+
+***To locate your cPanel skin name look at red text, http://mysite.com:2082/frontend/x3/index.php
+In this case the cPanel screen name would be x3.  If you have trouble locating your skin name you may need to contact your host.
+
+Let us know if this free PHP cPanel addon domain script saved you some time.
