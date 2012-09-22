@@ -33,13 +33,13 @@ function processreq($input_file,$host,$cpaneluser,$cpanelpass,$cpanel_skin,$addo
 		/*the directory path is defined by the first element appended to public_html.  It does not matter where this file, 'addonhelper.php', is located - 
 		the program will always install the addon domains to this directory.  If this needs to be changed, this line needs to be updated.
 		Some versions of Cpanel do not allow for this to be changed and will ignore changes.  Most notably - version X.*/
-		$dir="public_html/".trim($domain[0]);
+		$dir="public_html/".trim($domain[0]).".".trim($domain[1]);
 		//the user is the first element of the $domain, as requested
-		$user=trim($domain[0]);
+		$user=trim($domain[0]).trim($domain[1]);
 		//put the domain back together and trim whitespace.
 		$dom=trim($domain[0]).".".trim($domain[1]);
 		//create the cpanel request.
-		$request = "/frontend/$cpanel_skin/addon/doadddomain.html?domain=$dom&user=$user&dir=$dir&pass=$addonpass";
+		$request = "/frontend/".$cpanel_skin."/addon/doadddomain.html?domain=".$dom."&user=".$user."&dir=".$dir."&pass=".$addonpass."";
 		//process the request with addondomain below
 		$result = addondomain($host,$cpaneluser,$cpanelpass,$request);
 		//parse for easy reporting
