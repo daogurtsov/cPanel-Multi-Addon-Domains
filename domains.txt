@@ -1,1 +1,4 @@
-truckrentalprotection.com
+The below are just examples.  Delete these and add your domains below.
+domain1.com
+domain2.com
+domain3.com
